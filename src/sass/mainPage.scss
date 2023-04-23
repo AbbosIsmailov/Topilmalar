@@ -1,0 +1,21 @@
+.header-style {
+      min-height: 80px;
+      color: #fff;
+      background-color: $bgBlue;
+}
+
+// .sider-style {
+//       min-height: calc(100vh - 80px);
+//       color: #fff;
+//       background-color: $bgOrange !important;
+// }
+
+.content-style {
+      min-height: calc(100vh - 80px);
+      color: #002b5b;
+      background-color: $bgWhite;
+}
+.pagination-panel{
+      justify-content: center;
+      margin: 10px 0 20px;
+}

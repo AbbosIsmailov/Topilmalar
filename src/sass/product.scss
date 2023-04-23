@@ -1,0 +1,44 @@
+.product-page{
+      background: $bgWhite;
+      min-height: calc(100vh - 80px);
+}
+.product-row {
+      margin: 20px auto;
+      padding: 0 12px;
+      width: 90%;
+      justify-content: space-between;
+}
+
+.product-col {
+      width: 49%;
+      color: $bgBlue;
+}
+
+.product-img {
+      width: 100%;
+}
+
+.product-title{
+      font-size: 48px;
+}
+
+.product-info{
+      font-size: 16px;
+      b{
+            font-size: 20px;
+      }
+}
+
+.product-category{
+      font-size: 16px;
+      b{
+            font-size: 20px;
+      }
+}
+
+.product-type{
+      font-size: 16px;
+      b{
+            font-size: 20px;
+      }
+}

@@ -1,0 +1,26 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+$bgBlue: #002B5B; 
+$bgOrange: #ea5455;
+$bgWhite: #E4DCCF;
+$colorText: #F9F5EB;
+
+.container{
+      max-width: 1920px;
+      margin: auto;
+}
+
+body{
+      background: #F9F5EB;
+}
+
+.ant-card-body{
+      padding: 10px 20px !important;
+}
+.ant-layout-header{
+      height: 80px !important;
+}

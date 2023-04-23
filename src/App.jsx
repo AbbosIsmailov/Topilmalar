@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HeaderContent from "./components/headerContent";
 import MainPage from "./pages/MainPage";
 import Product from "./pages/product";
-import Registration from "./pages/registration";
+// import Registration from "./pages/registration";
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
           </Header>
           <Layout>
             <Routes>
-              <Route path="/" element={<Registration />}/>
-              <Route path="/main" element={<MainPage />} />
+              {/* <Route path="/" element={<Registration />}/> */}
+              <Route path="/" element={<MainPage />} />
               <Route path="/product/:id" element={<Product />} />
             </Routes>
           </Layout>
